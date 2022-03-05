@@ -6,5 +6,10 @@ export const COLORS = {
   gray700: 'hsl(0deg 0% 40%)',
   black: 'hsl(0deg 0% 0%)',
   transparentGray15: 'hsl(0deg 0% 50% / 0.15)',
-  transparentGray35: 'hsl(0deg 0% 50% / 0.35)',
+  transparentGray35: 'hsl(0deg 0% 50% / 0.35)'
 };
+export const SIZES = {
+  small: 8,
+  medium: 12,
+  large: 24
+}
