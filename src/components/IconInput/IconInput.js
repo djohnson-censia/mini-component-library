@@ -45,13 +45,13 @@ const CustomInput = styled.input`
   border-bottom: var(--border-bottom);
   padding: var(--padding);
   font-size: var(--fontSize);
-  font-weight: bold;
+  font-weight: 700;
   color: ${COLORS.gray700};
   width: ${p=>p.width}px;
   min-width: 100px;
   &::placeholder{
     color: ${COLORS.gray500};
-    font-weight: normal;
+    font-weight: inherit;
   }
   &:hover {
     color: ${COLORS.black}
