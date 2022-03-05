@@ -30,8 +30,8 @@ const IconInput = ({
   return (
         <InputWrapper>
           <VisuallyHidden>{label}</VisuallyHidden>
-          <IconWrapper size={size === "large" ? 24 : 18} id={icon} strokeWidth={size === "large" ? 2 : 1} />
           <CustomInput style={styles} width={width} placeholder={placeholder} />
+          <IconWrapper size={size === "large" ? 24 : 18} id={icon} strokeWidth={size === "large" ? 2 : 1} />
           <VisuallyHidden>{label}</VisuallyHidden>
         </InputWrapper>
   )
@@ -70,11 +70,7 @@ const IconWrapper = styled(Icon)`
   margin:auto;
   pointer-events: none;
   color: ${COLORS.gray700};
-  font-weight: bold;
-
-  ${CustomInput}:hover + & {
-    background-color: ${COLORS.primary}
-  }
+  font-weight: 700;
 `
 
 
